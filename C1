@@ -1,0 +1,13 @@
+
+Array: + insert, 
+       - reach, delete, fixed size
+sort Array: + search faster than array
+            - insert, delete, fixed size
+stack: FILO
+quiue: FIFO
+linkList: + insert, delet  -search
+Bi-Tree: + search, insert, delete - delete complicated 
+red,_black Tree: + search insert, delete. balance tree. - complicated
+2-3-4 tree:  + search insert, delete. balance tree. - complicated
+hashTable: if know key save and get fast. - delete 
+Heap: + insert, delete, 

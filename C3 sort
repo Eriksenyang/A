@@ -2,6 +2,7 @@ buble sort
 １　比较２个
 ２　if　左大，交换
 ３　指针右移，比较下一个
+
 public void bubbleSor(){
   int out, in;
   
@@ -16,6 +17,7 @@ select sort
 1. select min
 2. move it to left most
 3. console move to next
+
 public void selectSort{
   int in,out, min;
   
@@ -30,4 +32,35 @@ public void selectSort{
   }
 }
 
-Insert Sor 65
+Insert Sort
+1. 表记的左边局部有序
+２　mark one，　出列
+3. marked one 与局部有序的比较（从大的开始），ｉf 局部有序的那个大，右移　
+
+public void insertSort(){
+  int in,out;
+  
+  for(out=1; out<nElement; out++){ //第１位a[0] 局部有序，　outter从第２位开始向右移动
+    long temp = a[out]; //out出列  
+    in = out; //从out的位置向左都是局部有序
+    while(in>0 && a[in-1] >= temp){ //在局部有序的部分　while in没到最左边＆＆a[in-1]的值>出列的（marked one）
+      a[in] = a[in-1]; //这个值右移动一位
+      --in;　//在局部有序的部分 go left 一位（去比较下一位　和　出列的）向左移动
+    }
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

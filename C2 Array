@@ -1,0 +1,45 @@
+int[] intArray = new int[100];
+
+//delete one
+public boolean delete(long value){
+  int j;
+  for(j=0; j<nElems; j++){ //look for it
+    if(value == a[j])
+    break;
+    if(j==nElems) // can't find it
+    return false;
+    else{         // find it 
+      for(int k=j; k<nElems; k++) //  move everone down 1 positon to cover delete one
+      a[k] = a[k+1];
+      nElems--;
+      return true;
+    }
+  }
+}
+
+binary search 
+
+public int find(long searchKey){
+  int lowerBound = 0;
+  int upperBound = eElems-1;
+  int curIn;
+  
+  while(true){
+    curIn = (lowerBound + upperBound)/2;
+    if(a[curIn]==searchKey)
+      return curIn;
+    else if(lowerBound > uperBound)
+      return nElems;
+    else{
+      if(a[curIn]<searchKey)
+        lowerBound = curIn + 1;
+       else
+        upperBound = curIn - 1;
+    }
+  }
+
+
+
+
+
+}

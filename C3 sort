@@ -1,0 +1,33 @@
+buble sort
+１　比较２个
+２　if　左大，交换
+３　指针右移，比较下一个
+public void bubbleSor(){
+  int out, in;
+  
+  for(out=nElems-1; out>1; out--)//outloop right-left
+    for(in=0; in<out; in++) // innerloop left-right
+      if(a[in] > a[in＋１])　//left> right
+        swap(in, in+1);
+
+}
+
+select sort 
+1. select min
+2. move it to left most
+3. console move to next
+public void selectSort{
+  int in,out, min;
+  
+  for(out=0; out<nElems-1; out++){
+    min = a[out];
+    for(in= out+1; in<nElems; in++){
+      
+      if(a[in] < a[min])
+      min = in;
+      swap(out, min); //min swap outside out: min be out position
+    }
+  }
+}
+
+Insert Sor 65

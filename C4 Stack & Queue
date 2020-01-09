@@ -1,0 +1,68 @@
+Stack
+
+class StackX{
+  private int maxSize;
+  private long[] stackArray;
+  private int top;
+  
+  public StackX(int s){
+    maxSize = s;
+    stackArray = new long[maxSize];
+    top = -1;
+  }
+  
+  public void push(long j){
+    stackArray[++top] = j;// ++ then insert
+  }
+  public long pop(){
+    retrurn stackArray[top--]; // return then --
+  }
+  
+  public long peek(){
+    return stackArray[top];  
+  }
+  
+  public boolean isEmpty(){
+    return (top == -1);
+  }  
+
+}
+
+Queue
+
+class Queue{
+  private int maxSize;
+  private long[] queArray;
+  private int front;
+  private int rear;
+  private int nItems;
+  
+  public Queue(int s){
+    maxSize = s;
+    queArray = new long[maxSize];
+    front = 0;
+    rear = -1;
+    nItems = 0;
+  }
+  
+ public void insert(long j){
+  if(rear == maxSize-1) //从队尾加入，　rear＋＋
+    rear = -1; //deal with wraparound 
+    queArray[++rear] = j;　// 移到队头
+    nItems++;
+ }
+ 
+ public long remove(){
+  long temp = queArray[front++];　//从队头移除　front++
+  if(front == maxSize) //deal with wraparound 
+    front = 0;　//移到队头
+    nItems--;
+    return temp;
+ }
+  
+  
+  
+  
+  
+  
+}

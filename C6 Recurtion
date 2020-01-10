@@ -1,0 +1,55 @@
+Recurtion binary search
+
+private int recFind(long searchKey, int lowerBound, int upperBound){
+  int curIn;
+  
+  curIn = (lowerBound + upperBound ) / 2;
+  if(a[curIn] == searchKey)
+    return curIn;
+  else if(lowerBound > upperBound)
+    return nElems; // loop finished can't find
+  else{
+    if(a[curIn] < searchKey)
+      return recFind(searchKey, curIn+1, upperBound); //upper half
+     else
+      return recFind(searchKey, lowerBound, curIn-1);
+  }
+}
+
+recurtion Sort
+
+privade void recMergeSort(long[] workSpace, int lowerBound, int upperBound){
+  if(lowerBound == upperBound)// range is 1
+    return;
+  else [
+    int mid = (lowerBound + upperBound) / 2;
+    
+    recMergeSort(workSpace, lowerBound, min);
+    recMergeSort(workSpace, min+1, upperBound);
+    
+    merge(workSpace, lowerBound, mid+1, upperBound);
+  ]
+}
+private void merge(long[] workSpace, int lowPtr, int highPtr, int upperBound)
+{
+  int j = 0;
+  int lowerBound = lowPtr;
+  int mid = highPtr-1;
+  int n = upperBound-lowerBound+1;
+  
+  while(lowPtr <= mid && highPtr <=upperBound)
+  {
+    if(theArray[lowPtr] < theArray[highPtr])
+      workSpace[j++] = theArray[lowPrt++];
+    else
+      workSpace[j++] = theArray[highPrt++];
+  }
+  while(lowPtr <= mid)
+    workSpace[j++] = theArray[lowPrt++];
+  while(highPtr <= upperBound)
+     workSpace[j++] = theArray[highPrt++];
+ 
+ for(j=0; j<n; j++)
+ theArray[lowerBound+j] = workSpace[j];
+     
+}

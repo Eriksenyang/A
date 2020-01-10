@@ -43,3 +43,26 @@ public Link delete(int key){
 
 }
 
+// insert in order
+public void inser(long key){
+  Link newLink = new Link(key);
+  Link previous = null;
+  Link current = first;
+  
+  while(current != null && key > current.dData){ //loop
+    previous = current;
+    current = current.next; 
+  }
+  if(previous==null) // empty
+    first = newLink;
+  else
+    previous.next = newLink;
+  newLink.next = current;
+
+}
+
+
+
+
+
+

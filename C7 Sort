@@ -8,7 +8,7 @@ public void shellSort(){
   
   int h = 1;
   while(h <= nElems/3)
-    h = h*3 +1;  //knuth (1, 4, 13,40...)
+    h = h*3 +1;  // set knuth 间隔 (1, 4, 13,40...)
   
   while(h>0){ //decreasing h, nutil h=1
     
@@ -28,4 +28,50 @@ public void shellSort(){
   
 }
 
-p243
+Partion
+
+while(theArray[++leftPtr] < pivot)// left loop find > pivot will stop
+
+while(theArray[--rightPtr] > pivot) //right loop find < pivot will stop
+
+swap(leftPtr, rightPtr) //swap 
+
+
+Quick Sort
+1. divide to left and right
+2. rec left
+3. rec right
+
+public void recQuickSor(int lift,  int right){
+  if(right -left <= 0 )
+    return;
+  else{
+    long pivot = theArray[right]; //rightmost item as pivot
+  
+    int partition = partionIt(left, right);
+    recQuickSort(left, partition-1);
+    recQuickSort(partion+1, right);
+  } 
+  public int partionIt(int left, int right, long pivot){
+    int liftPtr = left-1;
+    int rightPtr = right;
+    while(true){
+      while(theArray[++leftPtr] < pivot)// left loop find > pivot will stop
+
+      while(theArray[--rightPtr] > pivot) //right loop find < pivot will stop
+
+      swap(leftPtr, rightPtr) //swap 
+     return leftPtr;
+    }  
+  }
+}
+//medianOf3
+if(theArray[left] > theArray[right]) //order left & right
+  swap(left,right);
+if(theArray[center] > theArray[right])//order center & right
+  swap(center,right);
+  
+swap(center,right-1); //put pivot on right
+retrun theArray[right-1];
+
+

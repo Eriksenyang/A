@@ -8,5 +8,13 @@ StringBuffer(synchronized/slow) / StringBuilder(non-synchronized, fast) 2 thread
 
 Enums: single-instance constants
 
-part2
 
+exception:
+
+P14 Thread
+https://www.cnblogs.com/jinggod/p/8485106.html
+新建 New
+就绪 Runnable
+运行 Running
+阻塞 Blocked
+死亡 Dead

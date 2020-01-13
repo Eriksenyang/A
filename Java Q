@@ -1,0 +1,12 @@
+JDK = JRE(JVM + LIB) + TOOL
+
+Mutablity: Strings, primitive wrapper object: calls be final, fields final
+
+primitive typers: byte short int long  float double chat boolean。　AUTOBOX： compiler: prim-obj
+
+StringBuffer(synchronized/slow) / StringBuilder(non-synchronized, fast) 2 threads can call the methods of StringBuilder same time
+
+Enums: single-instance constants
+
+part2
+

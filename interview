@@ -1,7 +1,25 @@
-shell scripte
+//shell scripte
+http://linuxcommand.org/lc3_wss0010.php
 
-dependenci confilect in maven
+//dependency conflict in maven
+https://maven.apache.org/plugins/maven-dependency-plugin/examples/resolving-conflicts-using-the-dependency-tree.html
 
-singleton 
+//singleton 
+class Singleton{
+  private static Singleton instance = new Singleton(); 
+  
+  private Singleton(){
+  }
+  
+  public static Singleton getInstance(){
+    return instance;
+  }
+} 
 
 versersave string
+
+Runnable vs callable
+
+
+functional interface in java 8
+https://www.baeldung.com/java-8-functional-interfaces

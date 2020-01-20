@@ -29,7 +29,7 @@ chcked exception unchecked exception
 
 how to create thread: extend thread, implement runable, use Executor framework
 
-mvn dependency confilct
+mvn dependency confilct: dependency tree
 Maven Enforcer Plugin 
 import library G before library Y inside X's POM file
 https://maven.apache.org/plugins/maven-dependency-plugin/examples/resolving-conflicts-using-the-dependency-tree.html

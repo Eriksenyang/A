@@ -34,3 +34,23 @@ Maven Enforcer Plugin
 import library G before library Y inside X's POM file
 https://maven.apache.org/plugins/maven-dependency-plugin/examples/resolving-conflicts-using-the-dependency-tree.html
 
+20200115 
+imutable class: when you will create? microService connect  with DB(userName,PW). when you switch DB
+
+Json: obj put in hashtable/hashmap
+
+Priority Queue
+https://www.tutorialspoint.com/data_structures_algorithms/priority_queue.htm
+
+block queue
+https://dzone.com/articles/java-concurrency-blocking-queu
+
+java8 validate users: optional (ofNullable /ifPresent() )
+https://www.jianshu.com/p/df403cab2d09
+
+reaction
+
+I/O
+
+spring authtication
+https://www.youtube.com/watch?v=caCJAJC41Rk

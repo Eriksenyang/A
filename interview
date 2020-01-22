@@ -63,3 +63,9 @@ https://www.javatpoint.com/steps-to-create-first-hibernate-application
 Hashmap HashTable  (1,aa) (1,bb) 后面的覆盖前面的
 where to handle exception 
 memory leaking: log 
+where set thread 
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+    <property name="corePoolSize" value="5" />
+    <property name="maxPoolSize" value="10" />
+    <property name="queueCapacity" value="25" />
+  </bean>

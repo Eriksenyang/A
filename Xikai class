@@ -57,3 +57,17 @@ Charpter3
     wait and sleep
       wait() : releases the lock or monitor .thread goes in waiting state and it won’t come back automatically until we call the notify() or notifyAll()
       sleep(): not  releases the lock or monitor . pause the process for few seconds
+
+Charpter4 colletion
+  Array: fixed size, primiter&obj
+  ArrayList: dynamic size, obj, 
+   ArrayList: search fast, delete/insert slow,
+   linkedList: search slow, delete/insert fast,
+  
+  hashset: set interface, hashing,unique value, allows null,  add()
+  
+  hashtable:synchronized,slow, no null key or value, 
+  hashmap:non synchronized, fast, 1 null key and multiple null values, HashMap as synchronized by calling this code Map m = Collections.synchronizedMap(hashMap);
+
+  ITERATOR: hasNext(), next(), remove()
+  ENUMERATION: hasMoreElement(), nextElement()

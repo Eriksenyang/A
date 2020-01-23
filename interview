@@ -69,3 +69,22 @@ where set thread
     <property name="maxPoolSize" value="10" />
     <property name="queueCapacity" value="25" />
   </bean>
+
+
+* sleep()/ wait()
+sleep() is a method which is used to pause the process for few seconds or the time we want to. But in case of wait() method, thread goes in waiting state and it won’t come back automatically until we call the notify() or notifyAll()
+* class loader
+https://www.journaldev.com/349/java-classloader
+*Can Enum implements an interface 
+https://www.tutorialspoint.com/can-enum-implements-an-interface-in-java
+*Spring DispatcherServlet   front controller for Spring based web applications
+
+*WebApplicationContext
+The ApplicationContext is the central interface within a Spring application that is used for providing configuration information to the application.
+
+Hibernate
+https://www.jianshu.com/p/c59e974e2a70
+
+
+Angular
+Component/ directive

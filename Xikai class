@@ -44,4 +44,13 @@ Charpter3
     .equals() content comparison
    
    StringBuffer and StringBuilder
-    
+    StringBuffer is thread safe and synchronized
+    StringBuilder is not thread safe and not synchronized--but fast
+   
+   Thread Safe:  program safe to use in multithreaded environment(Synchronization is the easiest and most widely used tool for thread safety in java.)
+    implement Runnable interface : implement run() method, call start() <provides more functionality>
+    extend Thread :  override run(), call start()
+   
+    ThreadPoolExecutor() : ExecutorService 
+   https://www.journaldev.com/1162/java-multithreading-concurrency-interview-questions-answers
+   

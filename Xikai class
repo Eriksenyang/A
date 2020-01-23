@@ -71,3 +71,10 @@ Charpter4 colletion
 
   ITERATOR: hasNext(), next(), remove()
   ENUMERATION: hasMoreElement(), nextElement()
+  
+  equals() hashCode()
+  https://www.journaldev.com/21095/java-equals-hashcode
+  
+
+
+  

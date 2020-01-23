@@ -38,4 +38,10 @@ Charpter3
     Extersions class load: jdk external classes $JAVA_HOME
     System class load: It loads classes from the current classpath
     1.loadClass()- findLoadedClass()<check loaded or not>--findClass()
+   
+   == & .equals()
+    == address comparison
+    .equals() content comparison
+   
+   StringBuffer and StringBuilder
     

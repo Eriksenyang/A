@@ -52,5 +52,8 @@ Charpter3
     extend Thread :  override run(), call start()
    
     ThreadPoolExecutor() : ExecutorService 
-   https://www.journaldev.com/1162/java-multithreading-concurrency-interview-questions-answers
-   
+    * https://www.journaldev.com/1162/java-multithreading-concurrency-interview-questions-answers
+      Thread is a single task of execution within the process.
+    wait and sleep
+      wait() : releases the lock or monitor .thread goes in waiting state and it won’t come back automatically until we call the notify() or notifyAll()
+      sleep(): not  releases the lock or monitor . pause the process for few seconds

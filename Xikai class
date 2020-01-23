@@ -11,3 +11,9 @@ Charpter1
 
 Charpter2
   OOP (Encapsulation & Inheritance & Polymorphism)
+  Polymorphism: Parent reference refer to Child's Object or interface reference refer to its implementation instance
+    1.要有继承关系
+    2.子类要重写父类的方法
+    3.父类引用指向子类对
+    https://www.jianshu.com/p/ebf2cd2347ff
+  interface vs abstract 

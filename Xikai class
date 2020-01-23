@@ -1,0 +1,8 @@
+Charpter0
+  shell :echo, ls, ./, cat, grep 'di',
+    https://www.jianshu.com/p/27d426ad6400
+    https://www.runoob.com/linux/linux-shell-variable.html
+
+Charpter1
+  JDK = JRE(JRE = JVM + java) + Javac  
+  JVM -> bytecode run on JVM, JVM written in C

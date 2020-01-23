@@ -32,4 +32,10 @@ Charpter2
     3. only static final variable
      
 Charpter3
-  class loader
+  class loader:  BYTECODE (.class)load to JVM
+  https://www.journaldev.com/349/java-classloader
+    Bootstrap class load: jdk internal classes
+    Extersions class load: jdk external classes $JAVA_HOME
+    System class load: It loads classes from the current classpath
+    1.loadClass()- findLoadedClass()<check loaded or not>--findClass()
+    

@@ -6,3 +6,8 @@ Charpter0
 Charpter1
   JDK = JRE(JRE = JVM + java) + Javac  
   JVM -> bytecode run on JVM, JVM written in C
+  source code -> .java 
+  bytecode -> .class
+
+Charpter2
+  OOP (Encapsulation & Inheritance & Polymorphism)

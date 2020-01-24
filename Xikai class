@@ -87,8 +87,27 @@ Charpter5
   Reflection
     https://www.journaldev.com/1789/java-reflection-example-tutorial
 
-Charpter6
+Charpter6 
+  Exception
+    which level will handle exception :
+    throwable-- error(worry, program failed)
+           -- exception -- checked(anticipated)--try catch
+                                    --throws
+                        -- runtimeException(unexpected)
+    
+  inner class
   
+  I/O
+    https://www.jianshu.com/p/48f2fb0b79b5?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+  
+  
+  Serializable
+    Transfer an object to byte stream and recover the object later is called serialization and deserialization
+    static fields and methods won't be serializable
     
+Charpter7
+  Thread
     
-    
+
+
+

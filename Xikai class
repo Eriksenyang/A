@@ -64,7 +64,7 @@ Charpter4 colletion
    ArrayList: search fast, delete/insert slow,
    linkedList: search slow, delete/insert fast,
   
-  hashset: set interface, hashing,fast, unique value, allows null, fast add(),                   equal()
+  hashset: set interface, hashing,fast, unique value, allows null,  add(),                      , equal()
   treeset:                ordered, slow,                               no null, n(logn)- search, compareTo()
   
   hashtable:synchronized,slow, no null key or value, 

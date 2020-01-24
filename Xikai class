@@ -76,6 +76,6 @@ Charpter4 colletion
   equals() hashCode()
   https://www.journaldev.com/21095/java-equals-hashcode
   
-
+  Map:keys can't be duplicate, values can.
 
   

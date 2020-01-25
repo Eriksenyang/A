@@ -130,13 +130,28 @@ Charpter8
         BootStrap ClassLoader
         Extension ClassLoader
         Appclass Loader
+    Loading: find .class and load into memory 
+    Linking:
+    Initializing:
   
+    Design Pattern 
+      Singleton:
   
+   JDBC:
+    // JDBC driver name and database URL
+    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/blog?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC";
+     //  Database credentials
+    static final String USER = "yourusername";
+    static final String PASS = "yourpassword";
+    
+    connection = DriverManager.getConnection(DB_URL, USER, PASS);
+    statement = connection.createStatement();
+    String sql = "select * from role";
+     ResultSet rs = statement.executeQuery(sql);
   
-  
-  
-  
-
-  
+  Hibernate: 
+    https://www.jianshu.com/p/c59e974e2a70
+    https://www.javatpoint.com/java-tutorial
   
 

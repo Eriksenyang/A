@@ -117,7 +117,26 @@ Charpter7
   NotifyAll(); notify all wait thread
   
   Thread pool: https://www.journaldev.com/1069/threadpoolexecutor-java-thread-pool-example-executorservice
+    java.util.concurrent.Executor : ExecutorService
+  
+  Clone :  https://www.jianshu.com/p/94dbef2de298
+  shallow copy: primite type copy, reference type only copy address ( implement Cloneable 接口，并覆写 clone())
+  Deep copy: primite type copy, reference type copy obj( implement Cloneable 接口，并覆写 clone(), then ref type call clone)
+  
+  
+Charpter8
+    JVM: executing the java program line by line 
+    ClassLoader: https://www.jianshu.com/p/1f5baa2947d2
+        BootStrap ClassLoader
+        Extension ClassLoader
+        Appclass Loader
+  
+  
+  
+  
+  
   
 
-
+  
+  
 

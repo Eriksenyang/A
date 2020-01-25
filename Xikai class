@@ -106,8 +106,18 @@ Charpter6
     static fields and methods won't be serializable
     
 Charpter7
-  Thread
+  Process:a program under execution 
+  Thread :Lightweight process that can be managed independently by a scheduler
+    https://www.jianshu.com/p/ea58227d10c9
     
+  Runnable:start(),Running:run(), Block, 
+  Sleep(): thread method, keep Monitor(lock), until time auto live
+  Wait():  obj    method, release Monitor(lock), wait notify/notifyall go back to  thread pool
+  Notify(): notify  1 wait thread
+  NotifyAll(); notify all wait thread
+  
+  Thread pool: https://www.journaldev.com/1069/threadpoolexecutor-java-thread-pool-example-executorservice
+  
 
 
 

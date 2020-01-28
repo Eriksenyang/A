@@ -9,3 +9,9 @@ step7
   creat limits-service.properties.  
   config is in application.properties(spring.cloud.config.server.git.url=file:/// uri...)
   @EnableConfigServer in Application
+
+Step9
+  chang limits-service's application.pro to bootstrap.pro ( spring.application.name match git-localconfig-rep limits-srvice
+                                                            spring.cloud.config.uri=http:// spring-cloud-config-service port)
+                                                            
+                                                            

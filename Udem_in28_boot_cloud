@@ -1,0 +1,11 @@
+https://github.com/in28minutes/spring-microservices/blob/master/03.microservices/step03.md
+  pplication.properties: ( limits-service.maximum=999)
+  create Configuration.java to get infor from application.properties 
+      ( @ConfigurationProperties("limits-service") / private int maximum / setters & getters)
+  @Autowired configuration at Controller    
+  
+
+step7 
+  creat limits-service.properties.  
+  config is in application.properties(spring.cloud.config.server.git.url=file:/// uri...)
+  @EnableConfigServer in Application

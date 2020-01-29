@@ -46,11 +46,15 @@ step 22 Ribbon - load balance
   3.url update at application properties
 
 
-step25
+step25 set up Eureka server
  1.pom netflix-eureka-server
  2.application.java: ＠EnableEurekaServer
  3.properties
  
+step26 Eureka client
+  1.pom: netflix-eureka-cliet
+  2.Application: @EnableDiscoveryClient
+  3.propeties:eureka.client.service-url.defaultzone=http://
  
  
 

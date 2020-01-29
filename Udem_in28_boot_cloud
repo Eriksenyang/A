@@ -14,7 +14,9 @@ Step9
   chang limits-service's application.pro to bootstrap.pro ( spring.application.name match git-localconfig-rep limits-srvice
                                                             spring.cloud.config.uri=http:// spring-cloud-config-service port)
                                                             
-                                                            
+   
+Git: c/Users/Public/git-localconfig-repo
+
 step17
    data.sql ( inset into exchange_calue(id,...) values(100,...);
    pom()  	<dependency>

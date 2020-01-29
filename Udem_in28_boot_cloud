@@ -39,3 +39,18 @@ Step 21 Feign -- rest service client
   1.add dependency in pom
   2.add @EnableFeignClient at application class
   3.create proxy: interface  @FeignClient(name, url) @GetMapping to call other service
+
+step 22 Ribbon - load balance
+  1.pom file
+  2.at proxy interface @ EnableRibbon(name)
+  3.url update at application properties
+
+
+
+
+
+
+
+
+
+

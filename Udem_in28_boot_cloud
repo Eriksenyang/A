@@ -46,6 +46,14 @@ step 22 Ribbon - load balance
   3.url update at application properties
 
 
+step25
+ 1.pom netflix-eureka-server
+ 2.application.java: ＠EnableEurekaServer
+ 3.properties
+ 
+ 
+ 
+
 
 
 

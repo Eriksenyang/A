@@ -63,7 +63,14 @@ step26 Eureka client
     3.ZuulLoggingFilter.java extend ZuulFilter: 
     4.http://localhost8761/{application-name}/{url}
     
+step33 34 ?
 
+step36
+  sleuth: set id to each request
+  1.pom: spring-cloud-starter-sleuth
+  2.application: @Bean
+                 public Sampler defaultSampler(){ retrun Sampler.ALWAYS_SAMPLE}
+  3.controller: add log to show id
 
 
 

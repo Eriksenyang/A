@@ -56,8 +56,13 @@ step26 Eureka client
   2.Application: @EnableDiscoveryClient
   3.propeties:eureka.client.service-url.defaultzone=http://
  
- 
-
+ step 29 review
+ step 30 API gateway
+    1.application.java: @EnableZuulProxy @EnableDiscoveryClient
+    2.property
+    3.ZuulLoggingFilter.java extend ZuulFilter: 
+    4.http://localhost8761/{application-name}/{url}
+    
 
 
 

@@ -1,3 +1,22 @@
+
+step3 Configuration.java
+  @ConfigurationProperties("name from application.properties")
+  public class Configuration{
+    private int min;
+    private int max
+    getters/ setters
+  }
+  @Autowired to controller 
+
+step4 spring cloud config server
+    1. pom
+    2.properties: spring.application.name=spring-cloud-config-server / server.port=
+
+step6 GIT
+  add git link to eclipse folder: build path--link source
+
+
+
 https://github.com/in28minutes/spring-microservices/blob/master/03.microservices/step03.md
   pplication.properties: ( limits-service.maximum=999)
   create Configuration.java to get infor from application.properties 
@@ -5,14 +24,15 @@ https://github.com/in28minutes/spring-microservices/blob/master/03.microservices
   @Autowired configuration at Controller    
   
 
-step7 
-  creat limits-service.properties.  
-  config is in application.properties(spring.cloud.config.server.git.url=file:/// uri...)
-  @EnableConfigServer in Application
+step7 connect local git repository to spring cloud config server
+  1.creat limits-service.properties.  
+  2.config is in application.properties(spring.cloud.config.server.git.url=file:/// uri...)
+  3. @EnableConfigServer in Application
 
-Step9
-  chang limits-service's application.pro to bootstrap.pro ( spring.application.name match git-localconfig-rep limits-srvice
-                                                            spring.cloud.config.uri=http:// spring-cloud-config-service port)
+Step9 change every application.properties to connect central config file 
+  change limits-service's application.pro to bootstrap.pro 
+      ( spring.application.name=limits-srvice match with git-localconfig-repo's properties 
+        spring.cloud.config.uri=http:// spring-cloud-config-service's port)
                                                             
    
 Git: c/Users/Public/git-localconfig-repo

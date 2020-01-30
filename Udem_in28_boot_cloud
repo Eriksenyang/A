@@ -74,6 +74,18 @@ step36
 
 
 
+step104 zipkin 
+  cmd --SET RABBIT_URI=amqp://localhost
+      -- java -jar zipkin-server-2.19.3-exec.jar
+  localhose:9411/zipkin
+    
+  
+  RabbitMQ window--services--
+  
+  
+  
+  
+
 
 
 

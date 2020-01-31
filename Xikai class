@@ -8,6 +8,9 @@ Charpter1
   JVM -> bytecode run on JVM, JVM written in C
   source code -> .java 
   bytecode -> .class
+  
+  static main()
+  https://www.jianshu.com/p/de4222fc2833
 
 Charpter2
   OOP (Encapsulation & Inheritance & Polymorphism)
@@ -30,7 +33,10 @@ Charpter2
     
     2.ab methods (java8 default & static methods)
     3. only static final variable
-     
+  
+  java动态绑定静态绑定
+  https://www.jianshu.com/p/4277bbcab647
+  
 Charpter3
   class loader:  BYTECODE (.class)load to JVM
   https://www.journaldev.com/349/java-classloader
@@ -69,6 +75,8 @@ Charpter4 colletion
   
   hashtable:synchronized,slow, no null key or value, 
   hashmap:non synchronized, fast, 1 null key and multiple null values, HashMap as synchronized by calling this code Map m = Collections.synchronizedMap(hashMap);
+          实现
+          https://www.jianshu.com/p/b1d2d2711ccf
 
   ITERATOR: hasNext(), next(), remove()
   ENUMERATION: hasMoreElement(), nextElement()
@@ -197,6 +205,14 @@ Charpter8
       
       
       
+      hibernate 
+      save:
+          The save method triggers a SaveOrUpdateEvent which is handled by the DefaultSaveOrUpdateEventListener Hibernate event listener. 
+          Therefore, the save method is equivalent to the update and saveOrUpdate methods.
+      persist:
+          The persist method triggers a PersistEvent which is handled by the DefaultPersistEventListener Hibernate event listener.
+      
+      spring spring mvc, spring boot
       
       
       

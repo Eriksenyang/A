@@ -7,11 +7,15 @@
   
   
  
-compile time: compiler jar and  run jar 
-run time: compiler jar and  run jar 
-https://www.jianshu.com/p/96c2e5850bf9?utm_campaign
-https://www.jianshu.com/p/bcb00756b1eb
-https://www.jianshu.com/p/af78a314c6fc
+3.compile time: compiler jar and  run jar 
+  run time: compiler jar and  run jar 
+        //class loader   https://www.cnblogs.com/z00377750/p/9175549.html
+
+        https://www.jianshu.com/p/96c2e5850bf9?utm_campaign
+        https://www.jianshu.com/p/bcb00756b1eb
+        https://www.jianshu.com/p/af78a314c6fc
+
+4.　statement vs prepare statment
 
 
 how to run spring
@@ -44,3 +48,7 @@ https://www.baeldung.com/spring-rest-http-headers
 
 
 hwo to deployer 
+
+
+a language for writing microservices
+Python/go

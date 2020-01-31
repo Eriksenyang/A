@@ -1,0 +1,45 @@
+1. getMapping  vs requestMapping
+    @GetMapping具体来说就是@RequestMapping的简写@RequestMapping（method = RequestMethod.GET）
+    https://www.jianshu.com/p/3b67c8bf2dbf
+
+2. Swagger(postman)
+  https://www.jianshu.com/p/a0caf58b3653
+  
+  
+ 
+compile time: compiler jar and  run jar 
+run time: compiler jar and  run jar 
+https://www.jianshu.com/p/96c2e5850bf9?utm_campaign
+
+
+
+how to run spring
+https://stackoverflow.com/questions/47835901/how-to-start-up-spring-boot-application-via-command-line
+
+spring run on environment
+
+how to update spring app when spring is running
+
+   <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+    </dependency>
+    
+    
+spring profile
+https://www.jianshu.com/p/6a998115b4fb
+https://www.baeldung.com/spring-profiles
+
+longbag
+
+modlemapping
+https://www.jianshu.com/p/5fdf49d5ba4c
+https://www.baeldung.com/spring-mvc-model-model-map-model-view
+
+how to check spring header
+https://www.jianshu.com/p/3b34234c4623
+https://www.baeldung.com/spring-rest-http-headers
+
+
+hwo to deployer 

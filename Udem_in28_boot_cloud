@@ -31,9 +31,21 @@ step7 connect local git repository to spring cloud config server
 
 Step9 change every application.properties to connect central config file 
   change limits-service's application.pro to bootstrap.pro 
-      ( spring.application.name=limits-srvice match with git-localconfig-repo's properties 
+      ( spring.application.name=limits-srvice (match with git-localconfig-repo's properties: limits-service-dev.properties) 
         spring.cloud.config.uri=http:// spring-cloud-config-service's port)
-                                                            
+         spring.profiles.active=dev (chose dev from cloud config limits-service-dev.properties)                                                   
+   
+step16 config JPA
+  1.pom: spring-boot-start-data-jpa 
+         h2
+  2.pojo class: @Entity @Id
+  3. initial some data: data.sql : Insert into exchange_value(in,from,to,converion_multple,port)
+                                   values(1000,'USD', 'CHN',65,8080)
+   
+  4. application.properties  -- spring.jpa.show-sql=true
+                             -- spring.h2.console.enable=true
+                  
+  5.localhost:8000/h2-console:  JDBC URL:jdbc:h2:mem:testdb  
    
 Git: c/Users/Public/git-localconfig-repo
 

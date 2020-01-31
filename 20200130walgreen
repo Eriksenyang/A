@@ -9,14 +9,19 @@
  
 3.compile time: compiler jar and  run jar 
   run time: compiler jar and  run jar 
-        //class loader   https://www.cnblogs.com/z00377750/p/9175549.html
-
+        ** class loader   https://www.cnblogs.com/z00377750/p/9175549.html
+                          https://segmentfault.com/a/1190000008491597
+                           
+                           
         https://www.jianshu.com/p/96c2e5850bf9?utm_campaign
         https://www.jianshu.com/p/bcb00756b1eb
         https://www.jianshu.com/p/af78a314c6fc
 
 4.　statement vs prepare statment
-
+         https://www.jianshu.com/p/80deb851b836
+         
+5.Lombok
+    https://www.baeldung.com/intro-to-project-lombok
 
 how to run spring
 https://stackoverflow.com/questions/47835901/how-to-start-up-spring-boot-application-via-command-line

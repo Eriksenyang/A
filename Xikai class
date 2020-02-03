@@ -22,13 +22,13 @@ Charpter2
   
   abstract vs interface
     https://www.journaldev.com/1607/difference-between-abstract-class-and-interface-in-java
-  abstract : provide a default implementation which are common for all the subclasses(base contract keeps on changing)
+  abstract :继承 provide a default implementation which are common for all the subclasses(base contract keeps on changing)
     1. abstract, extend 1 ab class
     
     2 ab and no ab method
     3 final, no-final, static,  no-static value
   
-  interface :Interfaces are a good choice for providing the base for class hierarchy and contract　
+  interface :功能　Interfaces are a good choice for providing the base for class hierarchy and contract　
     1.interface implement 多 interface
     
     2.ab methods (java8 default & static methods)

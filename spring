@@ -32,3 +32,8 @@ step10
 
 Kafka: MQ
 https://www.jianshu.com/p/40daa049e607
+
+
+how bean beanserializer
+https://www.jianshu.com/p/bee1c29c366e
+使用Serializable接口实现序列化

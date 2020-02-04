@@ -101,3 +101,41 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
 5.API gateway
   https://www.jianshu.com/p/1803b8609e0b
 
+20200204 citi
+1. java.lang.Object : https://www.cnblogs.com/lwbqqyumidi/p/3693015.html
+  protected void finalize();
+   wait(...) / notify() / notifyAll()
+   String toString()
+   hashCode
+   equals
+2.protected void finalize();
+
+
+３.为何重写equals方法就得重写hashCode方法: https://blog.csdn.net/xl_1803/article/details/80445481   
+   check hash code then check equal
+   if not overide hashcode, 默认的hashcode方法是根据对象的内存地址经哈希算法得来的，显然此时s1!=s2,故两者的hashcode不一定相等.
+   然而重写了equals，且s1.equals(s2)返回true，根据hashcode的规则，两个对象相等其哈希值一定相等，所以矛盾就产生了
+ 
+ 4.　final variable : constant variable
+     final methode : prevent override
+     final class : prevent inheritance(extend)
+
+  5.sql 5 type statement
+       Data definition language (DDL), 
+       Data manipulation language (DML), 
+       Data Control Language (DCL), 
+       Transaction Control Statement (TCS), 
+       Session Control Statements (SCS).
+       
+ 6. Primary key :  uniquely identifies each tuple (row) in that table
+    Unique key constraints also identifies an individual tuple uniquely in a relation or table
+        Primary key will not accept NULL values whereas Unique key can accept one NULL value.
+        only primary key whereas there can be multiple unique key on a table.
+        A Clustered index automatically created when a primary key is defined whereas Unique key generates the non-clustered index.
+
+ 
+ 
+ 
+ 
+ 
+ 

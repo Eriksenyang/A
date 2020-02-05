@@ -33,9 +33,59 @@ OOP
   StringBuilder不是线程安全的, fast,单线程场景下操作大量字符串数据的时候
   
   
+  Collection
+   == & .equals()
+     == address comparison
+    .equals() content comparison
+    
+  hashcode()&equals()
+    if not overide hashcode, 默认的hashcode方法是根据对象的内存地址经哈希算法得来的，显然此时s1!=s2,故两者的hashcode不一定相等.
+    然而重写了equals，且s1.equals(s2)返回true，根据hashcode的规则，两个对象相等其哈希值一定相等，所以矛盾就产生了
   
+  Set: not duplicate elements
+  List: ordered, can duplicate
+  Map:key(not duplicate)/value
+  
+
   Enums:a set of single-instance constants
-  Array:an object that can hold a fixed number of values of a single type
+  Array:an object that can hold a fixed number of values of a single type, obj+primitive
+  ArrayList: dynamic, obj,
+  
+  HashTable: not null key&values, synch, Enumeration its keys
+  HashMap:hash function-put, uses hashCode and equals methods -get. If the key exists, updated with the new value
+               null key&values, no-synch, Iterate over set key
   
   
+  Comparable-comparetTO
+  Comparator-compare/equals
+  
+  
+  
+  
+  Thread 
+    1.extend Thread, override run()
+    2.implement Runnable, implement run()
+    new start run block dead
+    wait and sleep
+      wait() : releases the lock or monitor .thread goes in waiting state and it won’t come back automatically until we call the notify() or notifyAll()
+      sleep(): not  releases the lock or monitor . pause the process for few seconds
+    Thread Safe:  program safe to use in multithreaded environment(Synchronization is the easiest and most widely used tool for thread safety in java.)
+    
+    ExecutorService:manages a thread pool that accepts Runnable or Callable tasks
+  
+  
+  java动态绑定静态绑定
+    静态绑定:compile time (final，static，private和构造方法是前期绑定),overloaded methods)使用的是静态绑定
+    动态绑定:run time(),overridden methods)使用的是动态绑定
+  
+  Memory mangagement
+    https://www.jianshu.com/p/f4bc828cb38e
+    
+    Stack: local variable+operad+return address+Reference to runtime constant pool.
+    Heap: in a dynamically sized area of memory
+    GC:System.gc()
+    Strong References:object will remain on the heap
+    Soft References: not be eagerly garbage collected, making them ideal for caches
+    Memory Leaks
+    Reference Queue
   

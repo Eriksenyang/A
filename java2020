@@ -3,3 +3,39 @@ OOP
   Encapsulation: getters/setters
   Abstraction: class
   polymophesion: 继承，重写，父类引用指向子类对象
+  
+  access modifier
+  private:class
+  defualt: private + same package
+  protected: defualt + sub_class in defferent package
+  public:
+  
+  final variable: constant
+  final method: no override
+  final class: no inheritance
+  
+  static:
+  
+
+  Abstrac : extend 1 ab, free, (are designed to be extended and cannot be instantiated)
+  Interface: implement 多 interface, public static final variable,(promote polymorphism by describing a form that an object can take)
+  
+  
+  java.lang.obj
+  clone()/equals()/hashCode/toString/getClass/wait/notify/nofifyAll
+  
+  Exceptions: Throwable--error: statckoverflowErrors
+                         exception--checked exception:try/catch/finally, throws(IOExcetion)
+                                  --unchecked exception(runtimeExcetion) NullpointException
+  
+  String
+  StringBuffer是线程安全的, slow, 多线程场景下操作大量字符串数据的时候
+  StringBuilder不是线程安全的, fast,单线程场景下操作大量字符串数据的时候
+  
+  
+  
+  Enums:a set of single-instance constants
+  Array:an object that can hold a fixed number of values of a single type
+  
+  
+  

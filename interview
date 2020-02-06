@@ -133,6 +133,51 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
         only primary key whereas there can be multiple unique key on a table.
         A Clustered index automatically created when a primary key is defined whereas Unique key generates the non-clustered index.
 
+ 20200206 walmart
+ 
+  1.ExceptionHandling with MethodOverriding
+    https://www.javatpoint.com/exception-handling-with-method-overriding
+    If the superclass method does not declare an exception
+       subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
+    If the superclass method declares an exception
+        subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+              
+              
+  2.hashSet: 1. deplicate value will update
+             2. duplicate obj - overide equals()&hashCode() will update
+                              - not overide equals()&hashCode() will duplicate
+  3. OOP
+  4.Thread pass obj: https://www.cnblogs.com/jpfss/p/10783847.html
+     1.一、通过构造方法传递数据 在A thread 中加一个构造方法传递数据
+     2.通过变量和方法传递数据： 1. setter method in thread A( public void setName(String name)),
+                            2. create thread B
+                            3. main 方法中 用setter(B) in A
+     3.通过回调函数传递数据: 在thread A, run() use callback methode
+  5.list/map/set/queue
+  6.Why String is inmutable: string pool
+  7. How to implement sql
+  8.spring
+  9.DI
+  10.https://blog.csdn.net/Alano1994/article/details/84330599
+     construct DI： 构造注入可以在构造器中决定依赖关系的注入顺序
+     set DI：
+  11.deploy:
+  12 Rest: 
+  13:JSON stands for JavaScript Object Notation
+     JSON is a lightweight format for storing and transporting data 
+      JSON is often used when data is sent from a server to a web page
+ 14 https://dzone.com/articles/how-to-improve-the-performance-of-a-java-applicati
+ 15 No SQL: https://www.jianshu.com/p/296bacba3510
+ 15 Javascript:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  

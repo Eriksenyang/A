@@ -195,7 +195,16 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
    12: quality : SonarQube
    13: product support tools
  
- 
+20200207 Amex
+  1.OOP
+  2. final
+  3.GIT
+  4.Automition
+  5. bean type
+  6. @Controller: 
+     @ResponseBody : Spring converts the return value and writes it to the HTTP response automatically
+     @restController:  @Controller + @ResponseBody
+  7.production supper  
  
  
  

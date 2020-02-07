@@ -170,9 +170,30 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
  15 No SQL: https://www.jianshu.com/p/296bacba3510
  15 Javascript:
  
- 
- 
- 
+ 20200206 KY
+ 1.spring field inject: set & constract
+ 2.@componet @service
+ 3. spring @scan multiple package
+     context:component-scan base-package="x.y.z.service, x.y.z.controller, x.y.z.dao" />
+     @ComponentScan({ "x.y.z", "x.y.z.dao" })
+ 4.type scaop of bean: singleton,protype,request,session,globlesession
+ 5.Bean life cycle: Initialization callbacks & Destruction callbacks
+ 6.Spring secutiry:
+ 7.securityContext share
+ 8.hashtable/list
+ 9JVM : heap(private static final)/ stack(new )
+ 10Excetion handler
+        @ControllerAdvice //class level
+        class GlobalControllerExceptionHandler {
+            @ResponseStatus(HttpStatus.CONFLICT)  // 409
+            @ExceptionHandler(DataIntegrityViolationException.class) // method level
+            public void handleConflict() {
+                // Nothing to do
+            }
+          }
+   11.Junit
+   12: quality : SonarQube
+   13: product support tools
  
  
  

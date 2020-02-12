@@ -28,7 +28,7 @@ OOP
                          exception--checked exception:try/catch/finally, throws(IOExcetion)
                                   --unchecked exception(runtimeExcetion) NullpointException
   
-  String
+  String : immutable 
   StringBuffer是线程安全的, slow, 多线程场景下操作大量字符串数据的时候
   StringBuilder不是线程安全的, fast,单线程场景下操作大量字符串数据的时候
   

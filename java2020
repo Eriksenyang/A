@@ -75,7 +75,8 @@ OOP
     Thread Safe:  program safe to use in multithreaded environment(Synchronization is the easiest and most widely used tool for thread safety in java.)
     
     ExecutorService:manages a thread pool that accepts Runnable or Callable tasks
-  
+       submit()can return result of computation because it has a return type of Future
+       execute() method cannot return anything because it's return type is void
   
   java动态绑定静态绑定
     静态绑定:compile time (final，static，private和构造方法是前期绑定),overloaded methods)使用的是静态绑定
@@ -113,8 +114,12 @@ OOP
         Primary key will not accept NULL values whereas Unique key can accept one NULL value.
         only primary key whereas there can be multiple unique key on a table.
         A Clustered index automatically created when a primary key is defined whereas Unique key generates the non-clustered index.
- 
- 
+  
+  transaction isolation levels
+    Serializable / Repeatable read / Read committed / Read uncommitted
+    
+    
+    
     JDBC
     Connection -DataSource:JNDI 
                -DriverManager: url&credentials

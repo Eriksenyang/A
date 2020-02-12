@@ -206,9 +206,43 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
      @restController:  @Controller + @ResponseBody
   7.production supper  
  
+ 20200212 humana Louisville, Kentucky.
  
  
- 
+ 20200212 Plymouth Rock Assurance Corp.
+ 1. java 1.8 new furthre
+ 2. String : String is immutable in Java, create new is heavy operations and generate a lot of garbage in heap
+    StringBuffer:  used for String manipulation.
+ 3.inner class
+ 4.Thread ExecuterService
+   submit()can return result of computation because it has a return type of Future
+   execute() method cannot return anything because it's return type is void
+ 5.equal/hashcode
+ 6.Hashmap: null Key
+ 7.HashSet: add 3 new instance : size 3
+ 8.Bean Scoap
+ 9. hibernate
+    save: trigger saveOrUpdate event
+    persist: trigger psrsist event
+ 10.transaction isolation levels  
+    Serializable / Repeatable read / Read committed / Read uncommitted
+    https://www.jianshu.com/p/271076b79ca8
+    https://vladmihalcea.com/a-beginners-guide-to-transaction-isolation-levels-in-enterprise-java/
+    
+ 11. EventHandler : https://www.tutorialspoint.com/javafx/javafx_event_handling.htm
+     JavaFX - Event Handling
+ 12 mulesoft: https://www.tutorialspoint.com/mulesoft/index.htm
+ 13. security
+ 14.cache
+ 15.DB performance
+    
+    
+    
+    
+    
+    
+   
+
  
  
  

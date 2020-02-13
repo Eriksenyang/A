@@ -206,8 +206,24 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
      @restController:  @Controller + @ResponseBody
   7.production supper  
  
- 20200212 humana Louisville, Kentucky.
  
+ 20200212 humana Louisville, Kentucky.
+    1.oop
+    2.abstract
+      interface
+    3.DB
+     stored procedures: 1.identify an event and action 2 automatically 3. frontend can't call stored procedure
+     triggers: 1.no identify an event and action 2.manually 3. frontend can call stored procedure 
+    4.sql performance
+      1. Tools: Oracle: explain plan (breakdown)
+      2. piece by piece check
+      3. add Index: INDEX(columnIndex)
+         https://www.youtube.com/watch?v=zmAMXSr8zio
+      4.MS Azure
+      5.service performance
+       Tools: dynamic trace
+        
+      
  
  20200212 Plymouth Rock Assurance Corp.
  1. java 1.8 new furthre

@@ -253,7 +253,7 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
  15.DB performance
     
     
-20200213 putman
+20200213 BestBuy / putman
   1.soap: Simple Object Access Protoco 
           1.protocol 2. enterpirce 3. xml
     rest:Representational State Transfer
@@ -278,12 +278,18 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
   
   4. Validation: validation API
     1.it uses Hibernate Validator.@NotNull/ @Min/ @Max /@Size /@@Pattern
-    2.how to 
+    2.how to handler exception?
     
    5.how to create spring project: maven   https://spring.io/guides/gs/maven/#scratch
-      1. setup:   Create the directory structure
-      2. pom 
-      2.class
+      1.Dynamic Web Project( Run on tomcat )
+      2.maven pom.file
+      3.web.xml
+      3.web.xml文件里面添加下面的配置: 集成SpringMVC: 
+        配置监听器 <listener>
+        配置过滤器，解决POST乱码问题<filter>
+        配置SpringMVC分发器  <servlet>dispatcher-servlet
+        
+        
       
    6.how to initial spring
         
@@ -312,7 +318,9 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
    
    14 singlton; stack (thread )
 
-
+   15 how to manage properties in configuration file
+   
+   
 
 
 

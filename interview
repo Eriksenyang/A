@@ -299,11 +299,18 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
    
    9.cache
    
-   10.Decket
+   10.Decket: testing
+    Docker is a software that allows us to run applications in separate environments called containers. 
     
-    
-
-
+   11. @Configuration : 
+       用于定义配置类，可替换XML配置文件，被注解的类内部包含一个或多个@Bean注解方法。可以被AnnotationConfigApplicationContext或者AnnotationConfigWebApplicationContext 进行扫描。用于构建bean定义以及初始化Spring容器。
+      @autowired: 
+  
+   12 thread lab 
+ 
+   13 how to choice different properties file 
+   
+   14 singlton; stack (thread )
 
 
 

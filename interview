@@ -253,6 +253,65 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
  15.DB performance
     
     
+20200213
+  1.soap: Simple Object Access Protoco 
+          1.protocol 2. enterpirce 3. xml
+    rest:Representational State Transfer
+          1. Architectural 2. point -to-point 3.json
+  2.Jakins : Continuous Integration (CI) Tool
+      https://www.guru99.com/jenkin-continuous-integration.html
+     * The code is built and test as soon as Developer commits code. Jenkin will build and test code many times during the day
+     * If the build is successful, then Jenkins will deploy the source into the test server and notifies the deployment team.
+     * Since the code is built after each commit of a single developer, it's easy to detect whose code caused the built to fail
+
+  3.Http request header   https://blog.csdn.net/xjl271314/article/details/80995464
+    Accept:  text/plain, text/html
+    Accept-Charset
+    Accept-Encoding
+    Accept-Language
+    Authorization
+    Cache-Control
+    Cookie
+    Host
+    
+    在METHOD 中拿 @RequestHeader value/defaultValue/required
+  
+  4. Validation: validation API
+    1.it uses Hibernate Validator.@NotNull/ @Min/ @Max /@Size /@@Pattern
+    2.how to 
+    
+   5.how to create spring project: maven   https://spring.io/guides/gs/maven/#scratch
+      1. setup:   Create the directory structure
+      2. pom 
+      2.class
+      
+   6.how to initial spring
+        
+        https://www.jianshu.com/p/1dd4089618a9
+        https://blog.csdn.net/u011043551/article/details/79675363
+        
+      初始化环境—>加载配置文件—>实例化Bean—>调用Bean显示信息
+      refresh方法, 方法的作用加载或者刷新当前的配置信息
+    
+   7.How to intergrate with Rest api
+   
+   8. hwo to do Unittest
+   
+   9.cache
+   
+   10.Decket
+    
+    
+
+
+
+
+
+
+
+
+
+
     
     
     

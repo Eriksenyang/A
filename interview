@@ -301,8 +301,10 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
      
      
    7.how to integrate with rest api
-      service side prox
-      
+     Step 1: Model the data
+     Step 2: Fetch the data
+     Step 3: Consume the data
+     
    8. hwo to do unit.Test
     @Test
     assertEquals

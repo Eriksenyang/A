@@ -50,6 +50,8 @@ OOP
   Enums:a set of single-instance constants
   Array:an object that can hold a fixed number of values of a single type, obj+primitive
   ArrayList: dynamic, obj,
+            sort(): implements Comparator<Student> 
+            https://www.javatpoint.com/difference-between-comparable-and-comparator
   
   HashTable: not null key&values, synch, Enumeration its keys
   HashMap:hash function-put, uses hashCode and equals methods -get. If the key exists, updated with the new value
@@ -60,6 +62,8 @@ OOP
   
   Comparable-comparetTO
   Comparator-compare/equals
+  https://www.javatpoint.com/difference-between-comparable-and-comparator
+  
   
   Priority Queue:based on a priority heap, no null,
   Blockin Queue: if BlockQueue 空,从BlockingQueue取东西 被阻断进入等待状态,直到BlockingQueue进了东西才会被唤醒.(PriorityBlockingQueue)

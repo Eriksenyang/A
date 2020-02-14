@@ -298,11 +298,15 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
         
       初始化环境—>加载配置文件—>实例化Bean—>调用Bean显示信息
       refresh方法, 方法的作用加载或者刷新当前的配置信息
+     
+     
+   7.how to integrate with rest api
+      service side prox
+      
+   8. hwo to do unit.Test
+    @Test
+    assertEquals
     
-   7.How to intergrate with Rest api
-   
-   8. hwo to do Unittest
-   
    9.cache
    
    10.Decket: testing
@@ -320,7 +324,9 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
 
    15 how to manage properties in configuration file
    
-   
+   16 sterilization: 
+      1.impliment serializable
+      2.serialVersionUID
 
 
 

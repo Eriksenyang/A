@@ -1,0 +1,6 @@
+shell
+vim
+
+ssh(远程连接)
+
+find . | grep txt

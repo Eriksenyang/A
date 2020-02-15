@@ -1,3 +1,22 @@
+
+   JAVA: Class-based and an object-oriented programming language.
+         Write once, Run anywhere
+   J2EE: servlet,JSP,  EJB, JDBC
+   Web service: HTTP (人看)
+   App Server: app服务器可以基于各种不同的协议（app 用）
+   
+   java 8 
+   
+   Function Interface:  SAM类型的接口（Single Abstract Method）
+                        https://www.jianshu.com/p/faa6d074614b
+   Optional接口
+   https://www.jianshu.com/p/b15071f00f8a
+   
+   https://www.jianshu.com/p/a28a95c80a68
+
+Stream接口
+   https://www.jianshu.com/p/3471a5221fcb
+
 OOP
   Inheritance:
   Encapsulation: getters/setters
@@ -60,9 +79,36 @@ OOP
   HashSet: hash table, not sort,  add/remove O(1) 
   TreeSet: tree, sort, add/remove O(logn)
   
-  Comparable-comparetTO
+  Comparable-comparetTO 
+               public int compareTo(Student st){  
+                  if(this.age==st.age)   return 0;  
+                  else if(this.age>st.age)  return 1;  
+                   else   return -1;  
+                 }  
   Comparator-compare/equals
   https://www.javatpoint.com/difference-between-comparable-and-comparator
+          class AgeComparator implements Comparator{  
+              public int compare(Object o1,Object o2){  
+              Student s1=(Student)o1;  
+              Student s2=(Student)o2;  
+
+              if(s1.age==s2.age)  
+              return 0;  
+              else if(s1.age>s2.age)  
+              return 1;  
+              else  
+              return -1;  
+      ]
+  
+  
+  Collections.sort :  https://www.jianshu.com/p/32f9578b9acc
+      Collections.sort(names, new Comparator<String>() {  // collections.sort 用 comparator
+        @Override
+        public int compare(String a, String b) {          //comparator的 compare 方法
+            return b.compareTo(a);                        //String 已经 override compareTo 方法，so 用 compareTo 
+        }
+    });
+  
   
   
   Priority Queue:based on a priority heap, no null,

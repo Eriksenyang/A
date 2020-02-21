@@ -333,10 +333,25 @@ Route 53, Load Balancing, Cloud Watch , ECS , ELK
       2.serialVersionUID
 
 
-
-
-
-
+20200221 AMEX
+ 1. performance: B-trace
+                 jmeter
+                 How to Use JMeter for Performance & Load Testing
+                   https://www.guru99.com/jmeter-performance-testing.html
+ 2. GC
+ 3. @Autowied(requried=false)
+ 4. verse
+ 5.how to mock a URL connection
+   https://stackoverflow.com/questions/25334139/how-to-mock-a-url-connection
+      First mock the URL class, 
+      then Mock the HttpURLConnection and when url.openconnection() is called,
+      return this mocked HttpURLConnection object 
+      finally set its response code to 200. 
+      
+       URL url = PowerMockito.mock(URL.class);
+       HttpURLConnection huc = Mockito.mock(HttpURLConnection.class);
+       PowerMockito.when(url.openConnection()).thenReturn(huc);
+       assertTrue(url.openConnection() instanceof HttpURLConnection);
     
     
     

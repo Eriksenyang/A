@@ -131,8 +131,11 @@ OOP
   
   
   Thread 
-    1.extend Thread, override run()
-    2.implement Runnable, implement run()
+    Runnable: run(), void
+             1.extend Thread, override run()
+             2.implement Runnable, implement run()
+    Callable: call(), return value
+         
     new start run block dead
     wait and sleep
       wait() : releases the lock or monitor .thread goes in waiting state and it won’t come back automatically until we call the notify() or notifyAll()
@@ -142,6 +145,24 @@ OOP
     ExecutorService:manages a thread pool that accepts Runnable or Callable tasks
        submit()can return result of computation because it has a return type of Future
        execute() method cannot return anything because it's return type is void
+    
+    Executor 是调用容器  Future 是查看
+            Runnable:
+               Future<?> runnable1 = executor.submit(new Runnable() {    
+                   @Override    
+                   public void run() {    
+                       System.out.println("runnable1 running.");    
+                   }    
+               });    
+            Callable: 
+               Future<String> future1 = executor.submit(new Callable<String>() {    
+                   @Override    
+                   public String call() throws Exception {    
+                       // TODO Auto-generated method stub    
+                       return "result=task1";    
+                   }    
+               });
+  
   
   java动态绑定静态绑定
     静态绑定:compile time (final，static，private和构造方法是前期绑定),overloaded methods)使用的是静态绑定

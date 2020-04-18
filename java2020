@@ -83,7 +83,11 @@ OOP
    List: ArrayList: fast find, slow add/delete
          LinkList: slow find, fast add/delete
          Vector: thread safe
-
+   Set: unique value
+         HashSet: no insert order, not sort
+         LinkHashSet: follow insert order, not sort
+         TreeSet: sort
+   
   Enums:a set of single-instance constants
   Array:an object that can hold a fixed number of values of a single type, obj+primitive
   ArrayList: dynamic, obj,

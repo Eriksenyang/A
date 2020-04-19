@@ -84,8 +84,8 @@ OOP
          LinkList: slow find, fast add/delete
          Vector: thread safe
    Set: unique value
-         HashSet: no insert order, not sort
-         LinkHashSet: follow insert order, not sort
+         HashSet: insert order not maintain, not sort
+         LinkHashSet: insert order maintain, not sort
          TreeSet: sort
    
   Enums:a set of single-instance constants
@@ -94,9 +94,12 @@ OOP
             sort(): implements Comparator<Student> 
             https://www.javatpoint.com/difference-between-comparable-and-comparator
   
-  HashTable: not null key&values, synch, Enumeration its keys
+  HashTable: not null key&values, synch(safe version of HashMap), Enumeration its keys
   HashMap:hash function-put, uses hashCode and equals methods -get. If the key exists, updated with the new value
                null key&values, no-synch, Iterate over set key
+  LinkedHashMap: insert order maintain, slow insert & deleter, fast interation
+  TreeMap: sorted order, 
+  
   
   HashSet: hash table, not sort,  add/remove O(1) 
   TreeSet: tree, sort, add/remove O(logn)

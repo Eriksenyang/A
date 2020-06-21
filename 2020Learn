@@ -12,3 +12,18 @@ git remote: 1.让自己的local folder 连接remote: git remote(local folder) ad
 git clone: git clone <url> <folder name>
 
 git 连接local&remote branch: git branch --set-upstream-to=<remote branch> eg:origin/dev
+
+git 把remote 更新到本地： git fetch + git merge = git pull
+
+git shallow: only clone leaste snappshot
+
+git only add some part: git add -p xx.java
+                        git diff --cached
+                        git commiet (add the part)
+                        git chekcout (drop the no-want part)
+
+git bisect: search history to find whare is last working ???????
+
+gitignore file: ignore some files
+
+

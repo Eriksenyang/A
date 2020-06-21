@@ -1,0 +1,10 @@
+git 
+https://www.youtube.com/watch?v=2sjqTHE0zok
+
+merge conflict: 1. 回滚： git merge --abort (https://www.jianshu.com/p/58a166f24c81)
+                2. vim: clean <<<< &>>>> EDIT, :x
+                3. git merge --continue
+                   git add 
+                   
+                
+                

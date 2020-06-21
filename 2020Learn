@@ -6,5 +6,9 @@ merge conflict: 1. 回滚： git merge --abort (https://www.jianshu.com/p/58a166
                 3. git merge --continue
                    git add 
                    
+git remote: 1.让自己的local folder 连接remote: git remote(local folder) add <name>  <url>   
+            2. push local change to remote: git push <remote> <local branch>:<remote branch>
                 
-                
+git clone: git clone <url> <folder name>
+
+git 连接local&remote branch: git branch --set-upstream-to=<remote branch> eg:origin/dev
